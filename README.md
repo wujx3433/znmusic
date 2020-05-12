@@ -9,3 +9,6 @@ Zn Music是我创建的一个wiki站。众所周知，wiki站的基础建设比�
 ## interwiki.sql
 一看sql就知道这是一张数据库的表。interwiki中文翻译成“跨维基”，你可以理解成浏览器地址栏的搜索功能，只不过通配符从'%s'换成了'$1'。
 以前wiki上编辑interwiki可以直接在'Special:Interwiki'编辑，只要你有相应权限就没问题；至少在1.31是可以的。不过我用的是1.34，这个功能的实现只能改表了。就很难受。
+## DefaultSettings.php
+这个文件保存的是全站的一些配置，位于'[wiki根目录]/includes'文件夹内。就如同我注释说的，你只需要关注947行即可。
+947行的'$wgFileExtensions'控制着你能在'Special:Upload'里上传的文件类型。
