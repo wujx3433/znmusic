@@ -241,8 +241,3 @@ $wgCategoryCollation = 'pinyin';
 
 # The configuration of AntiSpoof
 $wgSharedTables[] = 'spoofuser';
-
-# Enable Semantic MediaWiki
-#require_once( "/extensions/Validator/Validator.php" );
-#include_once( "/extensions/SemanticMediaWiki/SemanticMediaWiki.php" );
-#enableSemantics('39.97.223.6:82');
